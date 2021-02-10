@@ -1,0 +1,21 @@
+.started {
+  background-color: #45091b;
+  border-radius: 4px;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 80px 64px;
+  margin: 20px;
+}
+.started__text > h2 {
+  font-size: 36px;
+}
+.started__text > button {
+  background-color: #1dbf73;
+  text-transform: inherit;
+  color: #fff;
+  margin-top: 40px;
+  outline: none;
+}

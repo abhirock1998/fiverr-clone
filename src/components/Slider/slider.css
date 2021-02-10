@@ -1,0 +1,19 @@
+.slider {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: fixed;
+  top: 80px;
+  background-color: #fff;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 0px;
+  z-index: 999;
+  border: 1px solid #ddd;
+}
+
+@media screen and (max-width: 768px) {
+  .slider {
+    display: none;
+  }
+}

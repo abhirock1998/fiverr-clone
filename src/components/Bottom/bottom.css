@@ -1,0 +1,40 @@
+.bottom {
+  background-color: #fff;
+  border-top: 1px solid #e4e5e7;
+  display: flex;
+  /* align-items: center; */
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.bottom_left {
+  color: #7a7d85;
+  display: flex;
+  align-items: center;
+}
+.bottom_left > img {
+  height: 80px;
+  filter: opacity(0.4);
+  object-fit: contain;
+}
+.bottom_right {
+  display: flex;
+  flex-wrap: wrap;
+  color: #7a7d85;
+  align-items: center;
+}
+.bottom_right > .MuiSvgIcon-root {
+  margin: 0px 10px;
+}
+
+@media screen and (max-width: 968px) {
+  .bottom {
+    justify-content: center;
+    margin: 10px 0px;
+  }
+
+  .bottom_right {
+    justify-content: center;
+    padding: 5px 70px;
+  }
+}

@@ -1,0 +1,75 @@
+.business {
+  display: flex;
+  padding: 40px 20px;
+  background-color: #0d084d;
+  color: #fff;
+}
+.business__left {
+  flex: 0.5;
+  padding: 20px 50px 20px 20px;
+}
+
+.business__left > h2 {
+  line-height: 120%;
+  font-size: 2rem;
+}
+.business__leftHeading {
+  font-size: 18px;
+  line-height: 26px;
+  max-width: 450px;
+}
+.business__left > p {
+  display: flex;
+  align-items: center;
+  padding: 15px 0px;
+  font-weight: 600;
+}
+.business__left > p > .MuiSvgIcon-root {
+  margin-right: 10px;
+}
+.business__leftExploreBtn {
+  margin-top: 20px !important;
+  background-color: #1dbf73 !important;
+  text-transform: inherit !important;
+  color: #fff !important;
+  font-weight: 500 !important;
+  outline: none !important;
+}
+.business__leftContainerBtn {
+  border-radius: 20px;
+  padding: 1px 4px;
+  font-size: 12px;
+
+  background-color: #584aff;
+  color: #fff;
+}
+.business__leftContainer {
+  display: flex;
+  align-items: center;
+}
+.business__leftContainer > img {
+  height: 70px;
+  filter: invert(1);
+  object-fit: contain;
+}
+.business__right {
+  flex: 0.5;
+  padding: 20px;
+}
+.business__right > img {
+  height: 400px;
+}
+
+@media screen and (max-width: 768px) {
+  .business {
+    flex-direction: column;
+  }
+  .business__right > img {
+    height: 280px;
+  }
+}
+@media screen and (max-width: 468px) {
+  .business__right > img {
+    height: 200px;
+  }
+}

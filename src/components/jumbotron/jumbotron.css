@@ -1,0 +1,58 @@
+.jumboTron {
+  display: flex;
+  padding: 0px 20px;
+  margin: 40px 0px;
+  align-items: center;
+  background-color: #f1fdf7;
+}
+.jumboTron__left > h2 {
+  padding-bottom: 24px;
+  font-size: 32px;
+  line-height: 120%;
+}
+.jumboTron__left {
+  flex: 0.5;
+  padding: 40px 0px;
+  margin-right: 40px;
+}
+.jumboTron__leftHeading {
+  padding: 15px 0px;
+}
+.jumboTron__leftHeading > h6 {
+  display: flex;
+  align-items: center;
+}
+.jumboTron__leftHeading > h6 > .MuiSvgIcon-root {
+  margin-right: 10px;
+}
+.jumboTron__leftHeading > h6 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #404145;
+}
+.jumboTron__leftHeading > p {
+  font-size: 18px;
+  line-height: 26px;
+}
+.jumboTron__right {
+  flex: 0.5;
+  padding: 40px 0px;
+}
+.jumboTron__right > img {
+  height: 400px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .jumboTron {
+    flex-direction: column;
+  }
+  .jumboTron__right > img {
+    height: 280px;
+  }
+}
+@media screen and (max-width: 468px) {
+  .jumboTron__right > img {
+    height: 200px;
+  }
+}

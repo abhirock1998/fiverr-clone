@@ -1,0 +1,33 @@
+.search {
+  display: flex;
+
+  border-radius: 5px;
+  background-color: #fff;
+  align-items: center;
+}
+
+.search > .MuiSvgIcon-root {
+  padding-left: 5px;
+}
+.search > input {
+  flex: 1;
+  outline: none;
+  padding: 15px;
+  border: none;
+}
+.search button {
+  padding: 15px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  outline: none;
+  background-color: #1dbf73;
+}
+
+/* @media screen and (max-width: 768px) {
+  .search {
+    display: none;
+  }
+} */

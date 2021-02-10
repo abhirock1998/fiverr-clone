@@ -1,0 +1,23 @@
+.headerOption {
+  display: flex;
+  align-items: center;
+  margin: 0 8px;
+  color: #fff;
+}
+.headerOption > a {
+  text-decoration: none;
+
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
+.headerOption .MuiSvgIcon-root {
+  font-size: 1.2em;
+  margin-right: 4px;
+}
+
+@media screen and (max-width: 1200px) {
+  .headerOption {
+    display: none;
+  }
+}

@@ -1,0 +1,13 @@
+.bottomOption {
+  display: flex;
+  align-items: center;
+  margin: 0px 10px;
+  padding: 10px;
+  color: #7a7d85;
+  font-weight: 600;
+}
+@media screen and (max-width: 468px) {
+  .bottomOption {
+    margin: 5px 0px;
+  }
+}

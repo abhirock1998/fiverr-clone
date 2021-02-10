@@ -1,0 +1,43 @@
+.footerOption__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerOption__contentHeading {
+  display: flex;
+  align-items: center;
+  padding: 2px 0px;
+  justify-content: space-between;
+}
+.footerOption__contentHeading .MuiSvgIcon-root {
+  display: none;
+}
+.footerOption__contentHeading > h6 {
+  color: #404145;
+  font-size: 16px;
+
+  line-height: 140%;
+  font-family: macan, helvetica neue, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+.footerOption__content > a {
+  color: #7a7d85;
+  padding: 10px 0px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.footerOption__contentHeading button {
+  outline: none;
+}
+@media screen and (max-width: 768px) {
+  .footerOption__contentAnchor {
+    transition: 0.5s display ease-in-out;
+    display: none;
+  }
+  .footerOption__contentHeading {
+    cursor: pointer;
+  }
+  .footerOption__contentHeading .MuiSvgIcon-root {
+    display: block;
+  }
+}

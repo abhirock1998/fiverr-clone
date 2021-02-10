@@ -1,0 +1,37 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  /* overflow-x: hidden; */
+}
+.app::-webkit-scrollbar {
+  display: none;
+}
+.app__top {
+  height: 100vh;
+
+  background-size: 100%;
+  background-position: right 17%;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
+.app__topName {
+  display: flex;
+  align-items: baseline;
+  font-size: 20px;
+  color: #fff;
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+
+  transition: animation 2s ease-in-out;
+  animation: fade 2s linear;
+}
+@media screen and (max-width: 768px) {
+  .app__top {
+    background-image: none !important;
+    height: 60vh;
+  }
+  .app__topName {
+    display: none;
+  }
+}

@@ -1,0 +1,33 @@
+.multiNational {
+  background-color: #d5d4d2;
+  display: flex;
+  justify-content: center;
+}
+.multiNational__company {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #b5b6ba;
+}
+.multiNational__company > img {
+  height: 80px;
+  object-fit: contain;
+
+  margin: 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .multiNational__company > h3 {
+    display: none;
+  }
+  .multiNational__company > img {
+    margin: 5px;
+    height: 60px;
+  }
+  .multiNational {
+    padding: 0px 10px;
+  }
+  .multiNational__companyHide {
+    display: none;
+  }
+}

@@ -1,0 +1,37 @@
+.explore {
+  margin: 20px;
+}
+.explore__cardContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.explore__card {
+  display: flex;
+  min-width: 250px;
+  margin: 10px;
+  padding: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+.explore__card > img {
+  height: 60px;
+  object-fit: contain;
+}
+.explore__card > img:hover {
+  border-bottom: 2px solid #1dbf73;
+}
+.explore__card > a {
+  color: #222325;
+  text-decoration: none;
+  font: 400 16px/24px "Macan", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .explore__card {
+    min-width: 150px;
+  }
+  .explore__cardContainer {
+    justify-content: center;
+  }
+}
